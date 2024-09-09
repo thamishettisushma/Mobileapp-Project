@@ -403,10 +403,14 @@ h2{
 
 
 @media only screen and (width<576px){
-    body{
-        width: 100%;
-        
-    }
+   html,body{
+    width: max-content !important;overflow-x: hidden !important;
+   }
+
+
+
+
+
     nav{
         height: 15vh;
     }  
@@ -525,9 +529,9 @@ h2{
         height: 120vh;
     }
    
-    .article8{
-        width: 800px;
-    }
+    /*.article8{
+         width: 800px; 
+    }*/
     .footer{
         width: 800px;
         grid-template-columns: auto;
